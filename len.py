@@ -1,4 +1,8 @@
-def leng(word):
-    print(len(word))
+iterable = input(("Enter something: "))
+def len(iterable):
+    lenght = 0
+    for sign in iterable:
+        lenght +=1
+    print(lenght)
 
-leng('May the forth be with you')
+len(iterable)
